@@ -1,0 +1,310 @@
+#ru{
+    width: 400px;
+    height: 350px;
+    background: url(1499632005_e-news.su_1-75.jpg);
+    background-size: auto 100%;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+
+#jp{
+    width: 400px;
+    height: 350px;
+    background: url(233c867e661082230e96106b42a80010.jpg);
+    background-size: auto 100%;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+}
+
+#go{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 650px;
+    left: 1000px;
+    background-size: auto 10%;
+    
+}
+#go:active{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 640px;
+    left: 996px;
+}
+a{
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    color: rgb(255, 0, 0);
+}
+body {
+	text-align: center;
+    background-color: antiquewhite;
+}
+#input, #list {
+	display: inline-block;
+}
+#list {
+	padding: 0;
+	list-style-type: none;
+}
+
+#list span {
+	margin-right: 5px;
+    
+}
+#list .remove, #list .mark {
+	color: blue;
+	cursor: pointer;
+}
+#list .remove:hover, #list .mark:hover {
+	text-decoration: underline;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+
+.right {
+	border: 1px solid green;
+}
+.wrong {
+	border: 1px solid red;
+}
+#test{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+#input{
+    font-size: 20px;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 1800px;
+    top: 40px;
+}
+#list{
+    font-size: 20px;
+    position: absolute;
+    left: 1800px;
+    top: 60px;
+}
+#check{
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    
+}
+#left{
+    width: 50px;
+    height: 50px;
+    font-size: 250%;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 750px;
+    top: 155px
+    
+}
+#right{
+    width: 50px;
+    height: 50px;
+    font-size: 250%;
+    border-color: antiquewhite;
+    background-color: antiquewhite;    
+    position: absolute;
+    right: 750px;
+    top: 155px
+}
+#footer {
+    
+    background: #FF8040;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    position:fixed;
+    right:0;
+   bottom:0
+}
+#tt{
+    position: absolute;
+    left: 55px;
+    top: 0px;  
+}
+#tr{
+    position: absolute;
+    left: 1000px;
+    top: 550px;  
+}
+#zz{
+    position: absolute;
+    left: 1850px;
+    top: 0px; 
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+	#ru{
+        width: 250px;
+        height: 150px;
+        background: url(1499632005_e-news.su_1-75.jpg);
+        background-size: auto 110%;
+        font-size: 40px;
+        color: red;
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 70px;
+    }
+    
+    #jp{
+        width: 250px;
+        height: 150px;
+        background: url(233c867e661082230e96106b42a80010.jpg);
+        background-size: auto 150%;
+        font-size: 40px;
+        color: red;
+        text-align: center;
+        position: absolute;
+        top: 800px;
+        left: 70px;
+    }
+    
+    #go{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 690px;
+        left: 155px;
+        background-size: auto 10%;
+        
+    }
+    #go:active{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 695px;
+        left: 160px;
+    }
+    a{
+        position: absolute;
+        top: 200px;
+        left: 650px;
+        color: rgb(255, 0, 0);
+    }
+    body {
+        text-align: center;
+        background-color: antiquewhite;
+    }
+    #input, #list {
+        display: inline-block;
+    }
+    #list {
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    #list span {
+        margin-right: 5px;
+        
+    }
+    #list .remove, #list .mark {
+        color: blue;
+        cursor: pointer;
+    }
+    #list .remove:hover, #list .mark:hover {
+        text-decoration: underline;
+    }
+    img{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .right {
+        border: 1px solid green;
+    }
+    .wrong {
+        border: 1px solid red;
+    }
+    #test{
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    }
+    #input{
+        font-size: 20px;
+        width: 200px;
+        height: 20px;
+        position: absolute;
+        left: 1800px;
+        top: 40px;
+    }
+    #list{
+        font-size: 20px;
+        position: absolute;
+        left: 1800px;
+        top: 60px;
+    }
+    #check{
+        position: absolute;
+        left: 100px;
+        top: 280px;
+        
+    }
+    #left{
+        width: 50px;
+        height: 50px;
+        font-size: 250%;
+        border-color: antiquewhite;
+        background-color: antiquewhite;
+        position: absolute;
+        left: 750px;
+        top: 155px
+        
+    }
+    #right{
+        width: 50px;
+        height: 50px;
+        font-size: 250%;
+        border-color: antiquewhite;
+        background-color: antiquewhite;    
+        position: absolute;
+        right: 750px;
+        top: 155px
+    }
+    #footer {
+        
+        background: #FF8040;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        position:fixed;
+        right:0;
+       bottom:0
+    }
+    #tt{
+        position: absolute;
+        left: 55px;
+        top: 0px;  
+    }
+    #tr{
+        position: absolute;
+        left: 1000px;
+        top: 550px;  
+    }
+    #zz{
+        position: absolute;
+        left: 1850px;
+        top: 0px; 
+    }
+}
