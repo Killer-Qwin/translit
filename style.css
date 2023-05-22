@@ -164,7 +164,7 @@ img{
         text-align: center;
         position: absolute;
         top: 500px;
-        left: 70px;
+        left: 60px;
     }
     
     #jp{
@@ -177,7 +177,7 @@ img{
         text-align: center;
         position: absolute;
         top: 800px;
-        left: 70px;
+        left: 60px;
     }
     
     #go{
@@ -226,8 +226,8 @@ img{
         text-decoration: underline;
     }
     img{
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
     }
     
     .right {
@@ -238,73 +238,62 @@ img{
     }
     #test{
         position: absolute;
-        left: 20px;
-        top: 30px;
+        left: 80px;
+        top: 1030px;
     }
     #input{
         font-size: 20px;
         width: 200px;
         height: 20px;
         position: absolute;
-        left: 1800px;
-        top: 40px;
+        left: 90px;
+        top: 1400px;
     }
     #list{
         font-size: 20px;
         position: absolute;
-        left: 1800px;
-        top: 60px;
+        left: 110px;
+        top: 1420px;
     }
     #check{
         position: absolute;
-        left: 100px;
-        top: 280px;
+        left: 170px;
+        top: 1300px;
         
     }
     #left{
         width: 50px;
         height: 50px;
         font-size: 250%;
-        border-color: antiquewhite;
-        background-color: antiquewhite;
+       
         position: absolute;
-        left: 750px;
-        top: 155px
+        left: 0px;
+        top: 265px
         
     }
     #right{
         width: 50px;
         height: 50px;
         font-size: 250%;
-        border-color: antiquewhite;
-        background-color: antiquewhite;    
+           
         position: absolute;
-        right: 750px;
-        top: 155px
+        right: 0px;
+        top: 265px
     }
-    #footer {
-        
-        background: #FF8040;
-        color: white;
-        text-align: center;
-        font-size: 13px;
-        position:fixed;
-        right:0;
-       bottom:0
-    }
+
     #tt{
         position: absolute;
-        left: 55px;
-        top: 0px;  
+        left: 115px;
+        top: 980px;  
     }
     #tr{
         position: absolute;
-        left: 1000px;
-        top: 550px;  
+        top: 430px;
+        left: 140px; 
     }
     #zz{
         position: absolute;
-        left: 1850px;
-        top: 0px; 
+        left: 140px;
+        top: 1350px;  ; 
     }
 }
